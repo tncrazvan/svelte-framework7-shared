@@ -1,12 +1,12 @@
 <script>
   import { createEventDispatcher, onMount, onDestroy, afterUpdate, getContext } from 'svelte';
-  import Mixins from '../utils/mixins';
-  import Utils from '../utils/utils';
-  import restProps from '../utils/rest-props';
-  import f7 from '../utils/f7';
-  import hasSlots from '../utils/has-slots';
+  import Mixins from 'framework7-svelte/utils/mixins.js';
+  import Utils from 'framework7-svelte/utils/utils';
+  import restProps from 'framework7-svelte/utils/rest-props';
+  import f7 from 'framework7-svelte/utils/f7';
+  import hasSlots from 'framework7-svelte/utils/has-slots';
 
-  import Badge from './badge.svelte';
+  import Badge from 'framework7-svelte/components/badge.svelte';
 
   const dispatch = createEventDispatcher();
 
